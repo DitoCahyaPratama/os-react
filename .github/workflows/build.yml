@@ -1,10 +1,10 @@
 name: Hosting Static Website
 on:
   push:
-  branches:
-    - '*'
-  jobs:
-    build:
+    branches:
+      - '*'
+jobs:
+  build:
     name: Build Job
     runs-on: ubuntu-latest
     steps:
